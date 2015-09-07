@@ -1,0 +1,60 @@
+<resources>
+
+    <style name="AppThemeBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorAccent">@color/light_blue</item>
+
+        <item name="light_active_color">@color/light_blue</item>
+        <item name="active_color">@color/blue</item>
+        <item name="dark_active_color">@color/dark_blue</item>
+
+        <item name="checkbox">@drawable/checkbox_blue</item>
+        <item name="divider_horizontal">@drawable/divider_horizontal_blue</item>
+        <item name="divider_vertical">@drawable/divider_vertical_blue</item>
+        <item name="item_background">@drawable/item_background_blue</item>
+        <item name="progressbar">@drawable/progressbar_blue</item>
+
+    </style>
+
+    <style name="AppThemeGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorAccent">@color/light_green</item>
+
+        <item name="light_active_color">@color/light_green</item>
+        <item name="active_color">@color/green</item>
+        <item name="dark_active_color">@color/dark_green</item>
+
+        <item name="checkbox">@drawable/checkbox_green</item>
+        <item name="divider_horizontal">@drawable/divider_horizontal_green</item>
+        <item name="divider_vertical">@drawable/divider_vertical_green</item>
+        <item name="item_background">@drawable/item_background_green</item>
+        <item name="progressbar">@drawable/progressbar_green</item>
+
+    </style>
+
+    <style name="AppThemeGray" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/light_gray</item>
+        <item name="colorPrimaryDark">@color/dark_gray</item>
+        <item name="colorAccent">@color/white</item>
+
+        <item name="light_active_color">@color/light_gray</item>
+        <item name="active_color">@color/gray</item>
+        <item name="dark_active_color">@color/dark_gray</item>
+
+        <item name="checkbox">@drawable/checkbox_gray</item>
+        <item name="divider_horizontal">@drawable/divider_horizontal_gray</item>
+        <item name="divider_vertical">@drawable/divider_vertical_gray</item>
+        <item name="item_background">@drawable/item_background_gray</item>
+        <item name="progressbar">@drawable/progressbar_gray</item>
+
+    </style>
+
+</resources>

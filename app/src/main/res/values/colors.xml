@@ -1,0 +1,18 @@
+<resources>
+    <color name="black">#000000</color>
+
+    <color name="dark_gray">#555555</color>
+    <color name="gray">#888888</color>
+    <color name="light_gray">#BBBBBB</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="light_blue">#50D8F1</color>
+    <color name="blue">#20A8D1</color>
+    <color name="dark_blue">#0078B1</color>
+
+    <color name="light_green">#30BE40</color>
+    <color name="green">#008E10</color>
+    <color name="dark_green">#005E00</color>
+
+</resources>

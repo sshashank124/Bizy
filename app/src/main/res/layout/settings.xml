@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.shashank.singh.bizy.Settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="@dimen/regular_spacing"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:divider="?divider_horizontal"
+        android:dividerPadding="@dimen/regular_spacing"
+        android:showDividers="middle">
+
+        <RadioGroup
+            android:id="@+id/settings_theme_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/mid_spacing"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/settings_blue_theme"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:button="@android:color/transparent"
+                android:background="@drawable/radiobutton_blue"/>
+
+            <RadioButton
+                android:id="@+id/settings_gray_theme"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/regular_spacing"
+                android:button="@android:color/transparent"
+                android:background="@drawable/radiobutton_gray"/>
+
+            <RadioButton
+                android:id="@+id/settings_green_theme"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/regular_spacing"
+                android:button="@android:color/transparent"
+                android:background="@drawable/radiobutton_green"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mid_spacing"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Notify on Profile change"
+                android:layout_width="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="?dark_active_color"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <CheckBox
+                android:id="@+id/settings_notify_profile_change"
+                android:button="?checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+    android:id="@+id/adView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    ads:adSize="BANNER"
+    ads:adUnitId="@string/bottom_banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_create_new_profile"
+        android:icon="@drawable/ic_action_new"
+        android:title="@string/create_new_profile"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_rate_app"
+        android:title="@string/rate_app"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_feedback"
+        android:title="@string/feedback"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/help"
+        app:showAsAction="never"/>
+
+</menu>

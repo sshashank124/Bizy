@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetTop="@dimen/half_spacing"
+    android:insetBottom="@dimen/half_spacing"
+    android:insetLeft="@dimen/half_spacing"
+    android:insetRight="@dimen/half_spacing">
+
+    <shape>
+        <gradient
+            android:type="radial"
+            android:gradientRadius="300"
+            android:startColor="@color/light_gray"
+            android:endColor="@color/gray"
+            android:centerX="100%"
+            android:centerY="50%"/>
+    </shape>
+
+</inset>

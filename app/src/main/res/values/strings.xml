@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Bizy</string>
+
+    <string name="create_new_profile">Create New Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="discard_profile">Discard Profile</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
+    <string name="rate_app">Rate App</string>
+    <string name="feedback">Feedback</string>
+    <string name="help">Help</string>
+
+
+    <string name="field_profile_name">Profile Name</string>
+    <string name="field_profile_start_time">Start Time</string>
+    <string name="field_profile_end_time">End Time</string>
+
+    <string name="ring">RING</string>
+    <string name="music">MUSIC</string>
+    <string name="alarm">ALARM</string>
+    <string name="notif">NOTIFICATIONS</string>
+
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="sun">SUN</string>
+    
+    <string-array name="help_titles">
+        <item>Bizy</item>
+        <item>Creating a new Profile</item>
+        <item>Editing an existing Profile</item>
+        <item>Deleting a Profile</item>
+    </string-array>
+
+    <string-array name="help_child_Bizy">
+        <item>Manage profiles that will automatically control the volume levels on your phone throughout the week</item>
+        <item>You can view the list of profiles you have created on the Home page</item>
+        <item>You can also toggle between turning the profile on or off</item>
+    </string-array>
+
+    <string-array name="help_child_create">
+        <item>From the home page, tap the + button</item>
+        <item>Enter profile details</item>
+        <item>To save changes, tap the check button</item>
+        <item>To discard changes, just hit the trash or back button</item>
+    </string-array>
+
+    <string-array name="help_child_edit">
+        <item>Tap on an existing profile from the home page</item>
+        <item>Make changes to the profile details</item>
+        <item>To save changes, tap the check button</item>
+        <item>To discard changes, tap the back button</item>
+    </string-array>
+
+    <string-array name="help_child_delete">
+        <item>Tap on an existing profile from the home page</item>
+        <item>To delete the profile, tap the trash button</item>
+    </string-array>
+
+    <string name="bottom_banner_ad_unit_id">ca-app-pub-2163290933910507/9827900873</string>
+
+</resources>

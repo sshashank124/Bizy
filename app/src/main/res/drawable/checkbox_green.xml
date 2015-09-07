@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/light_green"/>
+                    <size android:height="32dp" android:width="32dp"/>
+                </shape>
+            </item>
+            <item>
+                <bitmap
+                    android:gravity="center"
+                    android:src="@drawable/ic_action_accept"/>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false">
+        <shape>
+            <solid android:color="@color/dark_green"/>
+            <size android:height="32dp" android:width="32dp"/>
+        </shape>
+    </item>
+</selector>

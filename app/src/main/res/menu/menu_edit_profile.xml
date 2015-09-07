@@ -1,0 +1,22 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_save_profile"
+        android:icon="@drawable/ic_action_accept"
+        android:title="@string/save_profile"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_discard_profile"
+        android:icon="@drawable/ic_action_discard"
+        android:title="@string/discard_profile"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_help"
+        android:title="@string/help"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="light_active_color" format="reference"/>
+    <attr name="active_color" format="reference"/>
+    <attr name="dark_active_color" format="reference"/>
+
+    <attr name="checkbox" format="reference"/>
+    <attr name="divider_horizontal" format="reference"/>
+    <attr name="divider_vertical" format="reference"/>
+    <attr name="item_background" format="reference"/>
+    <attr name="progressbar" format="reference"/>
+</resources>
